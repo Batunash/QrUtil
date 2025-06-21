@@ -1,0 +1,16 @@
+{
+  "name": "dynamic-link-qr-generator",
+  "version": "1.0.0",
+  "description": "Generate unique API links with QR codes that regenerate every 30 seconds",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "keywords": ["qr", "qrcode", "link", "uuid", "api", "regenerate"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode": "^1.5.3",
+    "uuid": "^9.0.0"
+  }
+}
